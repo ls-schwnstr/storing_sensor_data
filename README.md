@@ -17,6 +17,7 @@ This project sets up an InfluxDB instance with sample sensor data using Docker. 
    cd your_repository
 
 2. **Build the Docker Image**:
+   ```bash
    docker build -t sensor-data-influxdb .
    
 4. **Create a '.env' File**:
@@ -30,5 +31,6 @@ This project sets up an InfluxDB instance with sample sensor data using Docker. 
 
    
 5. **Run the Docker Container**:
+   ```bash
    docker run --env-file .env sensor-data-influxdb
 
