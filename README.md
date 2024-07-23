@@ -3,7 +3,7 @@
 ## Overview
 
 This project sets up an InfluxDB instance with sample sensor data using Docker. It includes a Docker container that will automatically load sample data into your InfluxDB instance.
-The dataset can also be downloaded here: [dataset](https://www.docker.com/products/docker-desktop).
+The dataset can also be downloaded here: [dataset](https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k?resource=download).
 
 ## Prerequisites
 
