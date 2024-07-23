@@ -36,5 +36,7 @@ The dataset can also be downloaded here: [dataset](https://www.kaggle.com/datase
    docker run --env-file .env sensor-data-influxdb
 
 
+## Examplatory SQL Command in InfluxDB
+
 ![Alt text](data_explorer.jpg)
 
