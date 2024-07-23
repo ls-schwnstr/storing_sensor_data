@@ -13,8 +13,8 @@ This project sets up an InfluxDB instance with sample sensor data using Docker. 
 
 1. **Clone the Repository**:
    ```bash
-   git clone [https://github.com/yourusername/your-repository-name.git](https://github.com/ls-schwnstr/storing_sensor_data.git)
-   cd storing_sensor_data
+   git clone https://github.com/your_username/your_repository.git
+   cd your_repository
 
 2. **Build the Docker Image**:
    docker build -t sensor-data-influxdb .
@@ -23,10 +23,10 @@ This project sets up an InfluxDB instance with sample sensor data using Docker. 
    - Create a file named .env in the root directory of the project.
    - Add your InfluxDB credentials and any other necessary environment variables. Here’s an example .env file:
 
-   INFLUXDB_TOKEN=your_influxdb_token
-   INFLUXDB_URL=https://your-influxdb-url.com
-   INFLUXDB_ORG=your_organization
-   INFLUXDB_BUCKET=your_bucket
+   INFLUXDB_TOKEN=your_influxdb_token  
+   INFLUXDB_URL=https://your-influxdb-url.com  
+   INFLUXDB_ORG=your_organization  
+   INFLUXDB_BUCKET=your_bucket  
 
    
 5. **Run the Docker Container**:
