@@ -1,4 +1,4 @@
-# Sensor Data InfluxDB
+# Storing Sensor Data with InfluxDB
 
 ## Overview
 
